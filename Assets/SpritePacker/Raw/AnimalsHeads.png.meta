@@ -1,0 +1,1677 @@
+fileFormatVersion: 2
+guid: ead69c4494cb1d94db814ce8cbb3d3c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6479098447036902529
+    second: AnimalsHeads_0
+  - first:
+      213: -4873595745278847132
+    second: AnimalsHeads_1
+  - first:
+      213: 4685004270662642202
+    second: AnimalsHeads_2
+  - first:
+      213: 7335000754642111749
+    second: AnimalsHeads_3
+  - first:
+      213: 7572036921489866162
+    second: AnimalsHeads_4
+  - first:
+      213: 9043139619284490731
+    second: AnimalsHeads_5
+  - first:
+      213: 6972691005651241918
+    second: AnimalsHeads_6
+  - first:
+      213: 9073033162552376288
+    second: AnimalsHeads_7
+  - first:
+      213: 6374113497943734304
+    second: AnimalsHeads_8
+  - first:
+      213: 9018729920672726677
+    second: AnimalsHeads_9
+  - first:
+      213: -8557391267170739842
+    second: AnimalsHeads_10
+  - first:
+      213: 2625636894956160898
+    second: AnimalsHeads_11
+  - first:
+      213: -4351287734477648538
+    second: AnimalsHeads_12
+  - first:
+      213: -1809953628712509116
+    second: AnimalsHeads_13
+  - first:
+      213: 832601268517457950
+    second: AnimalsHeads_14
+  - first:
+      213: -6776419064060844564
+    second: AnimalsHeads_15
+  - first:
+      213: -154161759108539413
+    second: AnimalsHeads_16
+  - first:
+      213: -294667985465143968
+    second: AnimalsHeads_17
+  - first:
+      213: 6550557447429974531
+    second: AnimalsHeads_18
+  - first:
+      213: -3292249029105785992
+    second: AnimalsHeads_19
+  - first:
+      213: -5711303829453930704
+    second: AnimalsHeads_20
+  - first:
+      213: -7794511966408282409
+    second: AnimalsHeads_21
+  - first:
+      213: -6563619316113994809
+    second: AnimalsHeads_22
+  - first:
+      213: -5733054315543299822
+    second: AnimalsHeads_23
+  - first:
+      213: -3634204692948144506
+    second: AnimalsHeads_24
+  - first:
+      213: 1438220962586839753
+    second: AnimalsHeads_25
+  - first:
+      213: 4351320772594398635
+    second: AnimalsHeads_26
+  - first:
+      213: 1798460992368413773
+    second: AnimalsHeads_27
+  - first:
+      213: -2215650571768504024
+    second: AnimalsHeads_28
+  - first:
+      213: -3987149082548064949
+    second: AnimalsHeads_29
+  - first:
+      213: -7293507761039721075
+    second: AnimalsHeads_30
+  - first:
+      213: 3022626781044232930
+    second: AnimalsHeads_31
+  - first:
+      213: 6610746407645123714
+    second: AnimalsHeads_32
+  - first:
+      213: -5834450712282005697
+    second: AnimalsHeads_33
+  - first:
+      213: -8017196591198789247
+    second: AnimalsHeads_34
+  - first:
+      213: 3143075521554839528
+    second: AnimalsHeads_35
+  - first:
+      213: -6147115360674859838
+    second: AnimalsHeads_36
+  - first:
+      213: -7998337881986834911
+    second: AnimalsHeads_37
+  - first:
+      213: 6954791455719857182
+    second: AnimalsHeads_38
+  - first:
+      213: 141638005088336472
+    second: AnimalsHeads_39
+  - first:
+      213: -8719416441575100378
+    second: AnimalsHeads_40
+  - first:
+      213: 1578574711210410705
+    second: AnimalsHeads_41
+  - first:
+      213: -4136683406594756906
+    second: AnimalsHeads_42
+  - first:
+      213: -7121729103899101675
+    second: AnimalsHeads_43
+  - first:
+      213: -7425391569274581400
+    second: AnimalsHeads_44
+  - first:
+      213: 8948512373770920795
+    second: AnimalsHeads_45
+  - first:
+      213: 8583913968003264288
+    second: AnimalsHeads_46
+  - first:
+      213: 8769577207570170832
+    second: AnimalsHeads_47
+  - first:
+      213: -8312592440096912560
+    second: AnimalsHeads_48
+  - first:
+      213: -2423932547093965665
+    second: AnimalsHeads_49
+  - first:
+      213: -8002161392671031526
+    second: AnimalsHeads_50
+  - first:
+      213: 67742454303472016
+    second: AnimalsHeads_51
+  - first:
+      213: 5822978317976068124
+    second: AnimalsHeads_52
+  - first:
+      213: -4470337383223354053
+    second: AnimalsHeads_53
+  - first:
+      213: 5094320410191876432
+    second: AnimalsHeads_54
+  - first:
+      213: 3482148996120508294
+    second: AnimalsHeads_55
+  - first:
+      213: 561491122731849135
+    second: AnimalsHeads_56
+  - first:
+      213: 6058057374767562548
+    second: AnimalsHeads_57
+  - first:
+      213: -867842743515690707
+    second: AnimalsHeads_58
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnimalsHeads_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 862
+        width: 275
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7394974a4e9516a0800000000000000
+      internalID: -6479098447036902529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_1
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 735
+        width: 122
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4679cc7bd728d5cb0800000000000000
+      internalID: -4873595745278847132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_2
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 733
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1ae80cdf8a740140800000000000000
+      internalID: 4685004270662642202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_3
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 725
+        width: 123
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50d4aa7e2582bc560800000000000000
+      internalID: 7335000754642111749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_4
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 863
+        width: 121
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bdbb833677451960800000000000000
+      internalID: 7572036921489866162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_5
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 861
+        width: 120
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be996b5329faf7d70800000000000000
+      internalID: 9043139619284490731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_6
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 861
+        width: 103
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb4768d689f3c060800000000000000
+      internalID: 6972691005651241918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_7
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 861
+        width: 99
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ebf5412793e9ed70800000000000000
+      internalID: 9073033162552376288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_8
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 861
+        width: 114
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02875f27476657850800000000000000
+      internalID: 6374113497943734304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_9
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 863
+        width: 143
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59e72ee5417f82d70800000000000000
+      internalID: 9018729920672726677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_10
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 723
+        width: 131
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7912444bf90e3980800000000000000
+      internalID: -8557391267170739842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_11
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 595
+        width: 114
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287850148d2207420800000000000000
+      internalID: 2625636894956160898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_12
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 593
+        width: 143
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d02fe0cde1d93c0800000000000000
+      internalID: -4351287734477648538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_13
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 726
+        width: 252
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44169a4a3c0c1e6e0800000000000000
+      internalID: -1809953628712509116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_14
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 727
+        width: 118
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e10d581417efd8b00800000000000000
+      internalID: 832601268517457950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_15
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 725
+        width: 115
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce5e775a3c255f1a0800000000000000
+      internalID: -6776419064060844564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 591
+        width: 131
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bebd26662be4cddf0800000000000000
+      internalID: -154161759108539413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 592
+        width: 131
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06d8ba7470129ebf0800000000000000
+      internalID: -294667985465143968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_18
+      rect:
+        serializedVersion: 2
+        x: 515
+        y: 591
+        width: 124
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30a6ad6ca4148ea50800000000000000
+      internalID: 6550557447429974531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_19
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 597
+        width: 116
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 873660c73f49f42d0800000000000000
+      internalID: -3292249029105785992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_20
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 599
+        width: 117
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03ff1194d6f5db0b0800000000000000
+      internalID: -5711303829453930704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_21
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 648
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dee3b4e9a454d390800000000000000
+      internalID: -7794511966408282409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_22
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 479
+        width: 137
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cb022ee10759e4a0800000000000000
+      internalID: -6563619316113994809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_23
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 479
+        width: 120
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 219750c99791070b0800000000000000
+      internalID: -5733054315543299822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_24
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 476
+        width: 121
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ea4cb2616b09dc0800000000000000
+      internalID: -3634204692948144506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_25
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 473
+        width: 131
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca428f685695f310800000000000000
+      internalID: 1438220962586839753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_26
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 475
+        width: 120
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5744a303ff26c30800000000000000
+      internalID: 4351320772594398635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_27
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 471
+        width: 138
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c04807eba65f810800000000000000
+      internalID: 1798460992368413773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_28
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 479
+        width: 123
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821e8534b8d6041e0800000000000000
+      internalID: -2215650571768504024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_29
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 479
+        width: 116
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4da234c80dcaa8c0800000000000000
+      internalID: -3987149082548064949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 347
+        width: 145
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d3ca0855148ca90800000000000000
+      internalID: -7293507761039721075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_31
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 345
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e259b4fa0782f920800000000000000
+      internalID: 3022626781044232930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_32
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 343
+        width: 91
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28490ef15d61ebb50800000000000000
+      internalID: 6610746407645123714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_33
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 349
+        width: 131
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3ff7ea4dfdd70fa0800000000000000
+      internalID: -5834450712282005697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_34
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 215
+        width: 98
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181af1f5d223db090800000000000000
+      internalID: -8017196591198789247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_35
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 222
+        width: 107
+        height: 249
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e7708cb8827e9b20800000000000000
+      internalID: 3143075521554839528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_36
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 349
+        width: 114
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c4b0a5f52f01baa0800000000000000
+      internalID: -6147115360674859838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_37
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 217
+        width: 106
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12edf96c212300190800000000000000
+      internalID: -7998337881986834911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_38
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 341
+        width: 107
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1c9a1d1bf1648060800000000000000
+      internalID: 6954791455719857182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_39
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 349
+        width: 122
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a3cf3e30337f100800000000000000
+      internalID: 141638005088336472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 222
+        width: 130
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620373f91f86ef680800000000000000
+      internalID: -8719416441575100378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_41
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 103
+        width: 117
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d28c11165938e510800000000000000
+      internalID: 1578574711210410705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_42
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 217
+        width: 134
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deaaa9db5c8796c0800000000000000
+      internalID: -4136683406594756906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_43
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 220
+        width: 118
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516788fcc198a2d90800000000000000
+      internalID: -7121729103899101675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_44
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 103
+        width: 119
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e453b85b5b3f890800000000000000
+      internalID: -7425391569274581400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_45
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 221
+        width: 107
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53adcab7908f2c70800000000000000
+      internalID: 8948512373770920795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_46
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 103
+        width: 119
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f295d3640302770800000000000000
+      internalID: 8583913968003264288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_47
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 103
+        width: 126
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3059fc10cc3b970800000000000000
+      internalID: 8769577207570170832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_48
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 9
+        width: 115
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05b0d6db73db3ac80800000000000000
+      internalID: -8312592440096912560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_49
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 103
+        width: 123
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94d4f2e0367c5ed0800000000000000
+      internalID: -2423932547093965665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_50
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 105
+        width: 118
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f7f725c9c92f090800000000000000
+      internalID: -8002161392671031526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_51
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 7
+        width: 123
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099b8fc376ba0f000800000000000000
+      internalID: 67742454303472016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_52
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 103
+        width: 140
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c10e3c1cdef5fc050800000000000000
+      internalID: 5822978317976068124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_53
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 7
+        width: 122
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d92d6b5db26f1c0800000000000000
+      internalID: -4470337383223354053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_54
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 15
+        width: 117
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05152851c69a2b640800000000000000
+      internalID: 5094320410191876432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_55
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 9
+        width: 133
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687feb01014135030800000000000000
+      internalID: 3482148996120508294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_56
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 6
+        width: 115
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa597f28331dac700800000000000000
+      internalID: 561491122731849135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_57
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 7
+        width: 123
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43fb4fbd51b821450800000000000000
+      internalID: 6058057374767562548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimalsHeads_58
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 7
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c8df6f9dc4f3f0800000000000000
+      internalID: -867842743515690707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AnimalsHeads_0: -6479098447036902529
+      AnimalsHeads_1: -4873595745278847132
+      AnimalsHeads_10: -8557391267170739842
+      AnimalsHeads_11: 2625636894956160898
+      AnimalsHeads_12: -4351287734477648538
+      AnimalsHeads_13: -1809953628712509116
+      AnimalsHeads_14: 832601268517457950
+      AnimalsHeads_15: -6776419064060844564
+      AnimalsHeads_16: -154161759108539413
+      AnimalsHeads_17: -294667985465143968
+      AnimalsHeads_18: 6550557447429974531
+      AnimalsHeads_19: -3292249029105785992
+      AnimalsHeads_2: 4685004270662642202
+      AnimalsHeads_20: -5711303829453930704
+      AnimalsHeads_21: -7794511966408282409
+      AnimalsHeads_22: -6563619316113994809
+      AnimalsHeads_23: -5733054315543299822
+      AnimalsHeads_24: -3634204692948144506
+      AnimalsHeads_25: 1438220962586839753
+      AnimalsHeads_26: 4351320772594398635
+      AnimalsHeads_27: 1798460992368413773
+      AnimalsHeads_28: -2215650571768504024
+      AnimalsHeads_29: -3987149082548064949
+      AnimalsHeads_3: 7335000754642111749
+      AnimalsHeads_30: -7293507761039721075
+      AnimalsHeads_31: 3022626781044232930
+      AnimalsHeads_32: 6610746407645123714
+      AnimalsHeads_33: -5834450712282005697
+      AnimalsHeads_34: -8017196591198789247
+      AnimalsHeads_35: 3143075521554839528
+      AnimalsHeads_36: -6147115360674859838
+      AnimalsHeads_37: -7998337881986834911
+      AnimalsHeads_38: 6954791455719857182
+      AnimalsHeads_39: 141638005088336472
+      AnimalsHeads_4: 7572036921489866162
+      AnimalsHeads_40: -8719416441575100378
+      AnimalsHeads_41: 1578574711210410705
+      AnimalsHeads_42: -4136683406594756906
+      AnimalsHeads_43: -7121729103899101675
+      AnimalsHeads_44: -7425391569274581400
+      AnimalsHeads_45: 8948512373770920795
+      AnimalsHeads_46: 8583913968003264288
+      AnimalsHeads_47: 8769577207570170832
+      AnimalsHeads_48: -8312592440096912560
+      AnimalsHeads_49: -2423932547093965665
+      AnimalsHeads_5: 9043139619284490731
+      AnimalsHeads_50: -8002161392671031526
+      AnimalsHeads_51: 67742454303472016
+      AnimalsHeads_52: 5822978317976068124
+      AnimalsHeads_53: -4470337383223354053
+      AnimalsHeads_54: 5094320410191876432
+      AnimalsHeads_55: 3482148996120508294
+      AnimalsHeads_56: 561491122731849135
+      AnimalsHeads_57: 6058057374767562548
+      AnimalsHeads_58: -867842743515690707
+      AnimalsHeads_6: 6972691005651241918
+      AnimalsHeads_7: 9073033162552376288
+      AnimalsHeads_8: 6374113497943734304
+      AnimalsHeads_9: 9018729920672726677
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

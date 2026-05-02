@@ -1,0 +1,1859 @@
+fileFormatVersion: 2
+guid: f09394d38064de642b99aef064691448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4958385453392493600
+    second: General2_0
+  - first:
+      213: -745926229675967875
+    second: General2_1
+  - first:
+      213: -5865001561626279392
+    second: General2_2
+  - first:
+      213: -3127841190314592045
+    second: General2_3
+  - first:
+      213: -6048833154837397489
+    second: General2_4
+  - first:
+      213: 2318409245058282426
+    second: General2_5
+  - first:
+      213: 7535148804784226580
+    second: General2_6
+  - first:
+      213: 3360618210021304838
+    second: General2_7
+  - first:
+      213: -1391276897674128424
+    second: General2_8
+  - first:
+      213: 844289061912755806
+    second: General2_9
+  - first:
+      213: 5044907550516108879
+    second: General2_10
+  - first:
+      213: 2398637217838442304
+    second: General2_11
+  - first:
+      213: 8163857853985449703
+    second: General2_12
+  - first:
+      213: -174739531427937342
+    second: General2_13
+  - first:
+      213: -2812492765602113332
+    second: General2_14
+  - first:
+      213: 2220417775024815948
+    second: General2_15
+  - first:
+      213: 4994129167306657010
+    second: General2_16
+  - first:
+      213: 7297778311428035780
+    second: General2_17
+  - first:
+      213: -9200612677300599042
+    second: General2_18
+  - first:
+      213: -7940612209501214578
+    second: General2_19
+  - first:
+      213: 1753508764011886546
+    second: General2_20
+  - first:
+      213: -2468679138746295821
+    second: General2_21
+  - first:
+      213: 1793645765656085266
+    second: General2_22
+  - first:
+      213: 1332838482832213135
+    second: General2_23
+  - first:
+      213: 8460872964089032791
+    second: General2_24
+  - first:
+      213: 2297372314085095538
+    second: General2_25
+  - first:
+      213: -6884012447219811849
+    second: General2_26
+  - first:
+      213: 6608988304139996449
+    second: General2_27
+  - first:
+      213: 7445350641323533620
+    second: General2_28
+  - first:
+      213: 4239645544135000910
+    second: General2_29
+  - first:
+      213: 8381652187670083328
+    second: General2_30
+  - first:
+      213: 1065112010298172690
+    second: General2_31
+  - first:
+      213: 2276724448235897567
+    second: General2_32
+  - first:
+      213: -6035783422465981675
+    second: General2_33
+  - first:
+      213: -8503271348478380950
+    second: General2_34
+  - first:
+      213: 1695929294989877397
+    second: General2_35
+  - first:
+      213: 6568816798263064186
+    second: General2_36
+  - first:
+      213: 2024710725594820637
+    second: General2_37
+  - first:
+      213: -1912320492116795172
+    second: General2_38
+  - first:
+      213: 294775223746821499
+    second: General2_39
+  - first:
+      213: 4605690272485612400
+    second: General2_40
+  - first:
+      213: -5743122161517957202
+    second: General2_41
+  - first:
+      213: -9137470015911156128
+    second: General2_42
+  - first:
+      213: 1626558649621490537
+    second: General2_43
+  - first:
+      213: 1003032539567351558
+    second: General2_44
+  - first:
+      213: -7371103540372087740
+    second: General2_45
+  - first:
+      213: -7016645940214093302
+    second: General2_46
+  - first:
+      213: -7199723338230464198
+    second: General2_47
+  - first:
+      213: 3140340742281695660
+    second: General2_48
+  - first:
+      213: -654176788582309274
+    second: General2_49
+  - first:
+      213: 8956717577923461754
+    second: General2_50
+  - first:
+      213: -2905450186364152810
+    second: General2_51
+  - first:
+      213: -2716479216207521117
+    second: General2_52
+  - first:
+      213: -5908716249736240567
+    second: General2_53
+  - first:
+      213: 4012371022854467279
+    second: General2_54
+  - first:
+      213: 8102575831614483656
+    second: General2_55
+  - first:
+      213: -8490264578373279715
+    second: General2_56
+  - first:
+      213: 1350421692166143536
+    second: General2_57
+  - first:
+      213: 1401200220061723117
+    second: General2_58
+  - first:
+      213: -3001470368188243678
+    second: General2_59
+  - first:
+      213: 4655079618615599086
+    second: General2_60
+  - first:
+      213: 54601583898415629
+    second: General2_61
+  - first:
+      213: -4853348260463054876
+    second: General2_62
+  - first:
+      213: 3783391376755177345
+    second: General2_63
+  - first:
+      213: -7145672441363263750
+    second: General2_64
+  - first:
+      213: 5382364967346769032
+    second: General2_65
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: General2_0
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 902
+        width: 84
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e3831763b6403bb0800000000000000
+      internalID: -4958385453392493600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_1
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 911
+        width: 111
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a7483db00f5a5f0800000000000000
+      internalID: -745926229675967875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_2
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 901
+        width: 99
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 022872067245b9ea0800000000000000
+      internalID: -5865001561626279392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 899
+        width: 76
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8b679620da794d0800000000000000
+      internalID: -3127841190314592045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_4
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 895
+        width: 79
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f00cf443b4a3e0ca0800000000000000
+      internalID: -6048833154837397489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_5
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 905
+        width: 106
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab33ea7cce4ac2020800000000000000
+      internalID: 2318409245058282426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_6
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 922
+        width: 139
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4118fde3ae9329860800000000000000
+      internalID: 7535148804784226580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_7
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 911
+        width: 110
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a670ae47053ae20800000000000000
+      internalID: 3360618210021304838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_8
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 810
+        width: 108
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d31de9680131bce0800000000000000
+      internalID: -1391276897674128424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 779
+        width: 116
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ebe07bd6487bb00800000000000000
+      internalID: 844289061912755806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_10
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 787
+        width: 98
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ed23920bc130640800000000000000
+      internalID: 5044907550516108879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_11
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 773
+        width: 117
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 047aa4257dba94120800000000000000
+      internalID: 2398637217838442304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_12
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 782
+        width: 101
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e6e597d679db4170800000000000000
+      internalID: 8163857853985449703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_13
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 794
+        width: 129
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c3050d6253339df0800000000000000
+      internalID: -174739531427937342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_14
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 789
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc81eec1bb408f8d0800000000000000
+      internalID: -2812492765602113332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_15
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 799
+        width: 117
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f315db33280de10800000000000000
+      internalID: 2220417775024815948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 655
+        width: 73
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc0bb38406be4540800000000000000
+      internalID: 4994129167306657010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_17
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 666
+        width: 93
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4d73e75bae64560800000000000000
+      internalID: 7297778311428035780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_18
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 659
+        width: 111
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6ca85548bd05080800000000000000
+      internalID: -9200612677300599042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_19
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 668
+        width: 131
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88ec8144474dc190800000000000000
+      internalID: -7940612209501214578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_20
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 662
+        width: 114
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7767d2ee6b55810800000000000000
+      internalID: 1753508764011886546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_21
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 658
+        width: 101
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f91c96276d7dbdd0800000000000000
+      internalID: -2468679138746295821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_22
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 659
+        width: 117
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21380da125f44e810800000000000000
+      internalID: 1793645765656085266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_23
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 654
+        width: 101
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f844f28d9813f7210800000000000000
+      internalID: 1332838482832213135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_24
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 530
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 750bb3a122f0b6570800000000000000
+      internalID: 8460872964089032791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_25
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 525
+        width: 111
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 278fbd992f7e1ef10800000000000000
+      internalID: 2297372314085095538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_26
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 523
+        width: 95
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f9781ef6231770a0800000000000000
+      internalID: -6884012447219811849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_27
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 583
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12dc9f0c8d7d7bb50800000000000000
+      internalID: 6608988304139996449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_28
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 518
+        width: 110
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 435e05c06f2335760800000000000000
+      internalID: 7445350641323533620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_29
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 535
+        width: 67
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e430cb7e82f36da30800000000000000
+      internalID: 4239645544135000910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_30
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 530
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00773fcb14c915470800000000000000
+      internalID: 8381652187670083328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_31
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 519
+        width: 117
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21523dbeab908ce00800000000000000
+      internalID: 1065112010298172690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_32
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 531
+        width: 118
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd24c84b2dc889f10800000000000000
+      internalID: 2276724448235897567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_33
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 523
+        width: 106
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51349bac4f69c3ca0800000000000000
+      internalID: -6035783422465981675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_34
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 399
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a647035c2cf4ef980800000000000000
+      internalID: -8503271348478380950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_35
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 399
+        width: 51
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ec0855b6298710800000000000000
+      internalID: 1695929294989877397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_36
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 403
+        width: 115
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76b61f2310292b50800000000000000
+      internalID: 6568816798263064186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_37
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 406
+        width: 128
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10b0047da7391c10800000000000000
+      internalID: 2024710725594820637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_38
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 402
+        width: 131
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0ada2f4a21675e0800000000000000
+      internalID: -1912320492116795172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_39
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 399
+        width: 103
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7df3041180471400800000000000000
+      internalID: 294775223746821499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_40
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 405
+        width: 139
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07b1afc96e2baef30800000000000000
+      internalID: 4605690272485612400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_41
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 405
+        width: 124
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf6c0d82d45c40b0800000000000000
+      internalID: -5743122161517957202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_42
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 253
+        width: 109
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06625d3de6f213180800000000000000
+      internalID: -9137470015911156128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_43
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 266
+        width: 116
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b27055972b29610800000000000000
+      internalID: 1626558649621490537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_44
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 265
+        width: 108
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607e11bc7cc7bed00800000000000000
+      internalID: 1003032539567351558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_45
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 263
+        width: 76
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c5f71426494b990800000000000000
+      internalID: -7371103540372087740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_46
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 263
+        width: 69
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0a2ad271bddf9e90800000000000000
+      internalID: -7016645940214093302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_47
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 280
+        width: 122
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a310fa705c1751c90800000000000000
+      internalID: -7199723338230464198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_48
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 261
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca11361544bb49b20800000000000000
+      internalID: 3140340742281695660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_49
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 267
+        width: 95
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 662ee304da5ebe6f0800000000000000
+      internalID: -654176788582309274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_50
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 125
+        width: 106
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7200a1be27ac4c70800000000000000
+      internalID: 8956717577923461754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_51
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 125
+        width: 99
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6141c210374cda7d0800000000000000
+      internalID: -2905450186364152810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_52
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 123
+        width: 131
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aa183e9b802d4ad0800000000000000
+      internalID: -2716479216207521117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_53
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 91
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942a4e760e5000ea0800000000000000
+      internalID: -5908716249736240567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_54
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 163
+        width: 138
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fceaf44df2ecea730800000000000000
+      internalID: 4012371022854467279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_55
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 134
+        width: 140
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cceb012ac1227070800000000000000
+      internalID: 8102575831614483656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_56
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 128
+        width: 72
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10aafc69558c2a80800000000000000
+      internalID: -8490264578373279715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_57
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 125
+        width: 145
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03e7b8acf59adb210800000000000000
+      internalID: 1350421692166143536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_58
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 29
+        width: 146
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de96aff1d20127310800000000000000
+      internalID: 1401200220061723117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_59
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 12
+        width: 65
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22167444a92a856d0800000000000000
+      internalID: -3001470368188243678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_60
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 19
+        width: 132
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eef5ebcdf3a2a9040800000000000000
+      internalID: 4655079618615599086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_61
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 24
+        width: 124
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d02507ce9dbf1c000800000000000000
+      internalID: 54601583898415629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_62
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 22
+        width: 131
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe6d3a87175acb0800000000000000
+      internalID: -4853348260463054876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_63
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 21
+        width: 120
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 187b4c1796e418430800000000000000
+      internalID: 3783391376755177345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_64
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 14
+        width: 90
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe8e3326c875dc90800000000000000
+      internalID: -7145672441363263750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: General2_65
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 17
+        width: 107
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c063abb6002ba40800000000000000
+      internalID: 5382364967346769032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      General2_0: -4958385453392493600
+      General2_1: -745926229675967875
+      General2_10: 5044907550516108879
+      General2_11: 2398637217838442304
+      General2_12: 8163857853985449703
+      General2_13: -174739531427937342
+      General2_14: -2812492765602113332
+      General2_15: 2220417775024815948
+      General2_16: 4994129167306657010
+      General2_17: 7297778311428035780
+      General2_18: -9200612677300599042
+      General2_19: -7940612209501214578
+      General2_2: -5865001561626279392
+      General2_20: 1753508764011886546
+      General2_21: -2468679138746295821
+      General2_22: 1793645765656085266
+      General2_23: 1332838482832213135
+      General2_24: 8460872964089032791
+      General2_25: 2297372314085095538
+      General2_26: -6884012447219811849
+      General2_27: 6608988304139996449
+      General2_28: 7445350641323533620
+      General2_29: 4239645544135000910
+      General2_3: -3127841190314592045
+      General2_30: 8381652187670083328
+      General2_31: 1065112010298172690
+      General2_32: 2276724448235897567
+      General2_33: -6035783422465981675
+      General2_34: -8503271348478380950
+      General2_35: 1695929294989877397
+      General2_36: 6568816798263064186
+      General2_37: 2024710725594820637
+      General2_38: -1912320492116795172
+      General2_39: 294775223746821499
+      General2_4: -6048833154837397489
+      General2_40: 4605690272485612400
+      General2_41: -5743122161517957202
+      General2_42: -9137470015911156128
+      General2_43: 1626558649621490537
+      General2_44: 1003032539567351558
+      General2_45: -7371103540372087740
+      General2_46: -7016645940214093302
+      General2_47: -7199723338230464198
+      General2_48: 3140340742281695660
+      General2_49: -654176788582309274
+      General2_5: 2318409245058282426
+      General2_50: 8956717577923461754
+      General2_51: -2905450186364152810
+      General2_52: -2716479216207521117
+      General2_53: -5908716249736240567
+      General2_54: 4012371022854467279
+      General2_55: 8102575831614483656
+      General2_56: -8490264578373279715
+      General2_57: 1350421692166143536
+      General2_58: 1401200220061723117
+      General2_59: -3001470368188243678
+      General2_6: 7535148804784226580
+      General2_60: 4655079618615599086
+      General2_61: 54601583898415629
+      General2_62: -4853348260463054876
+      General2_63: 3783391376755177345
+      General2_64: -7145672441363263750
+      General2_65: 5382364967346769032
+      General2_7: 3360618210021304838
+      General2_8: -1391276897674128424
+      General2_9: 844289061912755806
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
