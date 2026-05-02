@@ -26,10 +26,14 @@ public class ItemDataManager : Manager<ItemDataManager>
             Debug.LogError("ItemDataProcessor missing on ItemDataManager");
             return;
         }
+        ProcessItemInfos();
+    }
 
-        var extractedItemInfo = itemDataProcessor.ProcessItemInfo();
-        itemInfos = extractedItemInfo.itemInfos;
-        allTags = extractedItemInfo.tags;
+    public void ProcessItemInfos()
+    {
+        var result = itemDataProcessor.ProcessItemInfo();
+        itemInfos = result.itemInfos;
+        allTags = result.tags;
         BuildItemDictionary();
     }
 
