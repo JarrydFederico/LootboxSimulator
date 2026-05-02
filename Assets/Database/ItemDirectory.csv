@@ -1,3 +1,5 @@
-index,name,rarity,,,tags,,,
-lionHead,Lion (Head),rare,,,animal,lion,carnivore,animal head
-giraffeHead,Giraffe (Head),rare,,,animal,giraffe,animal head,
+ID,Display Name,Rarity,,,Tags,,,
+lionHead,Lion (Head),rare,,,Animals,Lions,Carnivores,Animal Heads
+giraffeHead,Giraffe (Head),rare,,,Animals,Giraffes,Herbivores,Animal Heads
+,,,,,,,,
+duckHead,Duck (Head),uncommon,,,Animals,Ducks,Herbivores,Animal Heads
