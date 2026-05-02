@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
 /// Extracts item data from the ItemInfo ItemDirectory CSV
@@ -15,10 +16,15 @@ public class ItemDataProcessor : MonoBehaviour
 {
     [SerializeField] private TextAsset itemDirectory; //A CSV with all info about items
 
-    [SerializeField] private int idColumn = 0;
-    [SerializeField] private int displayNameColumn = 1;
-    [SerializeField] private int rarityColumn = 2;
-    [SerializeField] private int tagsColumnStart = 5;
+    private int idColumn = 0;
+    private int displayNameColumn = 1;
+    private int rarityColumn = 2;
+    private int limitedColumn = 3;
+    private int spritePageNameColumn = 4;
+    private int spritePageIndexColumn = 5;
+    private int tagsColumnStart = 6;
+
+    private Dictionary<string, Sprite> spriteDictionary = new();
 
     public (List<ItemInfo> itemInfos, HashSet<string> tags) ProcessItemInfo()
     {
@@ -26,6 +32,14 @@ public class ItemDataProcessor : MonoBehaviour
         {
             Debug.LogError("CSV file not assigned on ItemDataProcessor");
             return (new List<ItemInfo>(), new HashSet<string>());
+        }
+
+        Sprite[] allSprites = Resources.LoadAll<Sprite>("SpritePages");
+        spriteDictionary = new Dictionary<string, Sprite>();
+
+        foreach (var sprite in allSprites)
+        {
+            spriteDictionary[sprite.name] = sprite;
         }
 
         HashSet<string> extractedTags = new HashSet<string>();
@@ -58,6 +72,15 @@ public class ItemDataProcessor : MonoBehaviour
                 }
             }
 
+            bool limited = false;
+            if (HasColumn(values, limitedColumn))
+                limited = !string.IsNullOrWhiteSpace(values[limitedColumn]);
+
+            Sprite sprite = HasColumn(values, spritePageNameColumn)
+                && HasColumn(values, spritePageIndexColumn)
+                ? GetSprite(values[spritePageNameColumn], values[spritePageIndexColumn])
+                : null;
+
             string[] tags = ExtractTags(values, tagsColumnStart);
 
             foreach (var tag in tags)
@@ -70,6 +93,8 @@ public class ItemDataProcessor : MonoBehaviour
                 id = values[idColumn].Trim(),
                 displayName = HasColumn(values, displayNameColumn) ? values[displayNameColumn].Trim() : "",
                 rarity = rarity,
+                limited = limited,
+                sprite = sprite,
                 tags = tags,
             };
 
@@ -100,6 +125,16 @@ public class ItemDataProcessor : MonoBehaviour
         }
 
         return tags.ToArray();
+    }
+
+    private Sprite GetSprite(string spritePageName, string spriteIndex)
+    {
+        string spriteName = spritePageName + "_" + spriteIndex;
+        if (spriteDictionary.TryGetValue(spriteName, out Sprite icon))
+        {
+            return icon;
+        }
+        return null;
     }
 
 }

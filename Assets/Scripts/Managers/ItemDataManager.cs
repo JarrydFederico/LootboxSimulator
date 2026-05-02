@@ -8,11 +8,10 @@ using System.Collections.Generic;
 
 public class ItemDataManager : Manager<ItemDataManager>
 {
-    //[SerializeField] public ItemDataManager
-
     [SerializeField] private List<ItemInfo> itemInfos = new();
     private Dictionary<string, ItemInfo> itemDictionary = new();
     private HashSet<string> allTags = new HashSet<string>();
+    public IReadOnlyList<ItemInfo> ItemInfos => itemInfos;
     public IReadOnlyCollection<string> AllTags => allTags;
 
     [SerializeField] private ItemDataProcessor itemDataProcessor;
@@ -34,10 +33,10 @@ public class ItemDataManager : Manager<ItemDataManager>
         var result = itemDataProcessor.ProcessItemInfo();
         itemInfos = result.itemInfos;
         allTags = result.tags;
-        BuildItemDictionary();
+        BuildItemDictionaries();
     }
 
-    private void BuildItemDictionary()
+    private void BuildItemDictionaries()
     {
         itemDictionary = new Dictionary<string, ItemInfo>();
 
@@ -46,9 +45,11 @@ public class ItemDataManager : Manager<ItemDataManager>
             if (!itemDictionary.TryAdd(item.id, item))
             {
                 Debug.LogWarning($"Duplicate item index found: {item.id}");
+                continue;
             }
         }
     }
+
 
     public bool GetItemInfo(string index, out ItemInfo item)
     {
@@ -63,6 +64,8 @@ public class ItemInfo
     public string id;
     public string displayName;
     public Rarity rarity;
+    public Sprite sprite;
+    public bool limited;
     public string[] tags;
 }
 

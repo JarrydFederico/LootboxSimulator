@@ -1,6 +1,6 @@
-ID,Display Name,Rarity,,,Tags,,,
-lionHead,Lion (Head),rare,,,Animals,Lions,Carnivores,Animal Heads
-giraffeHead,Giraffe (Head),rare,,,Animals,Giraffes,Herbivores,Animal Heads
-,,,,,,,,
-duckHead,Duck (Head),uncommon,,,Animals,Ducks,Herbivores,Animal Heads
-dogHead,Dog (Head),uncommon,,,Animals,Docks,Animal Heads,
+ID,Display Name,Rarity,Limited,ImageName,ImageIndex,Tags,,,
+lionHead,Lion (Head),epic,,animalHeads,0,Animals,Lions,Carnivores,Animal Heads
+giraffeHead,Giraffe (Head),rare,,animalHeads,1,Animals,Giraffes,Herbivores,Animal Heads
+duckHead,Duck (Head),uncommon,,animalHeads,3,Animals,Ducks,Herbivores,Animal Heads
+monkeyHead,Monkey (Head),common,,animalHeads,2,Animals,Monkeys,Animal Heads,
+dogHead,Dog (Head),common,X,animalHeads,4,Animals,Docks,Animal Heads,

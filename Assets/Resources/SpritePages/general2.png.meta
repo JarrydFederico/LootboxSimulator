@@ -315,7 +315,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: General2_processed_0
+      name: general2_0
       rect:
         serializedVersion: 2
         x: 0
@@ -328,16 +328,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0b94fbcd7821c19e0800000000000000
-      internalID: -1649422988791035472
+      spriteID: b290b7620af34e64d85ee4f276eb6cae
+      internalID: -1017794799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_1
+      name: general2_1
       rect:
         serializedVersion: 2
         x: 128
@@ -350,16 +350,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 564c279557871f8f0800000000000000
-      internalID: -508492837508955035
+      spriteID: 4fd2a54ca3b706e4c98518512c9a013a
+      internalID: -1183506096
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_2
+      name: general2_2
       rect:
         serializedVersion: 2
         x: 256
@@ -372,16 +372,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7a9a39a7b9515d010800000000000000
-      internalID: 1212899432166828455
+      spriteID: 5fd0b72abde8c564bbe8c5cc9f6068be
+      internalID: -1939377988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_3
+      name: general2_3
       rect:
         serializedVersion: 2
         x: 384
@@ -394,16 +394,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: bd4d932b4b048b2a0800000000000000
-      internalID: -6721551299022039845
+      spriteID: e44f55eb160466044933ff7d135d6e43
+      internalID: -801203198
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_4
+      name: general2_4
       rect:
         serializedVersion: 2
         x: 512
@@ -416,16 +416,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8205c1eb6c18f7940800000000000000
-      internalID: 5296094377404026920
+      spriteID: ea4c28010de2f104681311fad627a5ca
+      internalID: 1040883013
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_5
+      name: general2_5
       rect:
         serializedVersion: 2
         x: 640
@@ -438,16 +438,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 389c6b781fda32810800000000000000
-      internalID: 1739425133970770307
+      spriteID: b963cf4115eb5a7448d6676411cdb75a
+      internalID: 1624107419
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_6
+      name: general2_6
       rect:
         serializedVersion: 2
         x: 768
@@ -460,16 +460,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e6cfdd8ebb399edd0800000000000000
-      internalID: -2456269686478865298
+      spriteID: e001393243bbec74c90de1cfdfa4265b
+      internalID: -8251725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_7
+      name: general2_7
       rect:
         serializedVersion: 2
         x: 896
@@ -482,16 +482,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3f2587f8235d89190800000000000000
-      internalID: -7955374328617872653
+      spriteID: 5794f4e7e33bd674498ff909cf08f750
+      internalID: -1851851177
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_8
+      name: general2_8
       rect:
         serializedVersion: 2
         x: 0
@@ -504,16 +504,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 049c5b39ec9eff3f0800000000000000
-      internalID: -864715529981146816
+      spriteID: 72b259d9aa86fae4b908e84f97daebf7
+      internalID: -952790089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_9
+      name: general2_9
       rect:
         serializedVersion: 2
         x: 128
@@ -526,16 +526,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d71144cccf547a8c0800000000000000
-      internalID: -3988141992952196739
+      spriteID: 578b7066996a9bf419abda017dad5e63
+      internalID: 110763218
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_10
+      name: general2_10
       rect:
         serializedVersion: 2
         x: 256
@@ -548,16 +548,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 46195c83ef4b4d030800000000000000
-      internalID: 3518636212850364772
+      spriteID: 025128cdbc2d7cb43ad3f8c6b43586d1
+      internalID: -870232425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_11
+      name: general2_11
       rect:
         serializedVersion: 2
         x: 384
@@ -570,16 +570,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3b170ed405e461e0800000000000000
-      internalID: -2205386108437062849
+      spriteID: 101e414c96dc4dc4a95060c67c021b1d
+      internalID: 1240759921
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_12
+      name: general2_12
       rect:
         serializedVersion: 2
         x: 512
@@ -592,16 +592,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ec732f4567ef93c00800000000000000
-      internalID: 881014986312398798
+      spriteID: 20637dda66ca7464da9920437c4766f3
+      internalID: 364845098
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_13
+      name: general2_13
       rect:
         serializedVersion: 2
         x: 640
@@ -614,16 +614,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 42378da44cfbce790800000000000000
-      internalID: -7499408429688523996
+      spriteID: 5a9c8f662e8195848b4190dc00e5f2b7
+      internalID: 174696979
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_14
+      name: general2_14
       rect:
         serializedVersion: 2
         x: 768
@@ -636,16 +636,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 41934937f861cd1c0800000000000000
-      internalID: -4477679124137887468
+      spriteID: 13c4a2df14f88d94da0b765456c8af57
+      internalID: 253664840
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_15
+      name: general2_15
       rect:
         serializedVersion: 2
         x: 896
@@ -658,16 +658,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 87ba64c490e0b05c0800000000000000
-      internalID: -4248286390396736648
+      spriteID: 64cd7693e3b3c1d43aa4239d87dfe912
+      internalID: 683410639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_16
+      name: general2_16
       rect:
         serializedVersion: 2
         x: 0
@@ -680,16 +680,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c0997258287d00dc0800000000000000
-      internalID: -3674700340354639604
+      spriteID: 11bde48765a6ee44fba9138c27771b4c
+      internalID: 288148866
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_17
+      name: general2_17
       rect:
         serializedVersion: 2
         x: 128
@@ -702,16 +702,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 30fd325f99612c0e0800000000000000
-      internalID: -2251212013233250557
+      spriteID: 6206b96253ff953439b09e490684aacf
+      internalID: -1466741252
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_18
+      name: general2_18
       rect:
         serializedVersion: 2
         x: 256
@@ -724,16 +724,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ea57bbc2c974c8a40800000000000000
-      internalID: 5371747191637112238
+      spriteID: 9b35c7c886bdfd64cbd12dfc440b06ae
+      internalID: -1713079851
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_19
+      name: general2_19
       rect:
         serializedVersion: 2
         x: 384
@@ -746,16 +746,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 990fd9092513b0300800000000000000
-      internalID: 219323237540950169
+      spriteID: 09267deb40250474599c9a69cc375cf4
+      internalID: -1213509679
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_20
+      name: general2_20
       rect:
         serializedVersion: 2
         x: 512
@@ -768,16 +768,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c873e665e0700e5f0800000000000000
-      internalID: -729575381473020020
+      spriteID: 3ad617ebec34c0b4487839815143b87d
+      internalID: -2040582360
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_21
+      name: general2_21
       rect:
         serializedVersion: 2
         x: 640
@@ -790,16 +790,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e60764df193cfc930800000000000000
-      internalID: 4165763212127924334
+      spriteID: eb16c1b6d3ba16d4f831a53976e39698
+      internalID: 973791223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_22
+      name: general2_22
       rect:
         serializedVersion: 2
         x: 768
@@ -812,16 +812,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: cc0c97e8e47c18c00800000000000000
-      internalID: 901220540662530252
+      spriteID: d811782144044d34c8366ad1fbabd872
+      internalID: -1657538946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_23
+      name: general2_23
       rect:
         serializedVersion: 2
         x: 896
@@ -834,16 +834,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 94088c1d0e3556060800000000000000
-      internalID: 6946050225346216009
+      spriteID: 7c5f707109bdcd34e8a8aa64bcef15df
+      internalID: 867983302
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_24
+      name: general2_24
       rect:
         serializedVersion: 2
         x: 0
@@ -856,16 +856,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 3e6379040e19069a0800000000000000
-      internalID: -6241828691193153821
+      spriteID: b39d8fa22fb494749aa7ae4afe3b9e57
+      internalID: -956111633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_25
+      name: general2_25
       rect:
         serializedVersion: 2
         x: 128
@@ -878,16 +878,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: be7f2c819a945af20800000000000000
-      internalID: 3433231281553602539
+      spriteID: 2badaaaeed492eb4eac11fdc4d4987d4
+      internalID: -183628106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_26
+      name: general2_26
       rect:
         serializedVersion: 2
         x: 256
@@ -900,16 +900,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e7078b456909709e0800000000000000
-      internalID: -1655195362694500226
+      spriteID: 61f192a4405bb3a40bad91db7bfe0aaa
+      internalID: -2017212467
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_27
+      name: general2_27
       rect:
         serializedVersion: 2
         x: 384
@@ -922,16 +922,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 62b4dbd18f7958d70800000000000000
-      internalID: 9044802518550137638
+      spriteID: becba8eef52d827438dc91893142d742
+      internalID: 1902903748
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_28
+      name: general2_28
       rect:
         serializedVersion: 2
         x: 512
@@ -944,16 +944,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ace0d8928d9b00030800000000000000
-      internalID: 3458968851881725642
+      spriteID: f32c60fbcb520f14fa9005f73712c873
+      internalID: 736350351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_29
+      name: general2_29
       rect:
         serializedVersion: 2
         x: 640
@@ -966,16 +966,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 6f5c3b21b74bf99c0800000000000000
-      internalID: -3918214710101293578
+      spriteID: 2049a6302cc6366478143131fb582caf
+      internalID: -227338932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_30
+      name: general2_30
       rect:
         serializedVersion: 2
         x: 768
@@ -988,16 +988,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c98883e87f8febf10800000000000000
-      internalID: 2287539402877470876
+      spriteID: 21e824b584cb15144bd744facf1b9bd4
+      internalID: -383799094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_31
+      name: general2_31
       rect:
         serializedVersion: 2
         x: 896
@@ -1010,16 +1010,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8bfffc79c526a4e10800000000000000
-      internalID: 2182665119237930936
+      spriteID: 955704fed4454a849a61682940050ca4
+      internalID: -1164860023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_32
+      name: general2_32
       rect:
         serializedVersion: 2
         x: 0
@@ -1032,16 +1032,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c159eff577135ddb0800000000000000
-      internalID: -4767850241720412900
+      spriteID: 0aa48f640d75d51449567b5ad66f8d9a
+      internalID: -397852615
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_33
+      name: general2_33
       rect:
         serializedVersion: 2
         x: 128
@@ -1054,16 +1054,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1611bb230052a7d50800000000000000
-      internalID: 6735736875467346273
+      spriteID: 6d6541e8bdf36494eb223007e25a081b
+      internalID: 1114487517
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_34
+      name: general2_34
       rect:
         serializedVersion: 2
         x: 256
@@ -1076,16 +1076,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 960f864c1b4ee43e0800000000000000
-      internalID: -2067463726760923031
+      spriteID: be06a465767daa44aa4702c67d1f9575
+      internalID: 517656077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_35
+      name: general2_35
       rect:
         serializedVersion: 2
         x: 384
@@ -1098,16 +1098,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7ab51a4ecfe89a2e0800000000000000
-      internalID: -2114001333255054425
+      spriteID: 1b6673c188d129d468d98a3ac4460ca1
+      internalID: 1745693127
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_36
+      name: general2_36
       rect:
         serializedVersion: 2
         x: 512
@@ -1120,16 +1120,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 570a57d63284de890800000000000000
-      internalID: -7427200893466599307
+      spriteID: c72d16a9bfe45ca4fbf01261cdb80c21
+      internalID: -3696584
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_37
+      name: general2_37
       rect:
         serializedVersion: 2
         x: 640
@@ -1142,16 +1142,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 8e9710688f41ff8b0800000000000000
-      internalID: -5116347594036905496
+      spriteID: 0602c311590d0d843b5e34670211c560
+      internalID: -1730741766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_38
+      name: general2_38
       rect:
         serializedVersion: 2
         x: 768
@@ -1164,16 +1164,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 85a941700f7c16770800000000000000
-      internalID: 8602376596979227224
+      spriteID: 6601cff3ab6814e499c1106a5f3db071
+      internalID: 1965062668
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_39
+      name: general2_39
       rect:
         serializedVersion: 2
         x: 896
@@ -1186,16 +1186,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9316eb5f4e08b66e0800000000000000
-      internalID: -1843237901614292679
+      spriteID: 0261327680964524080f727017de7af6
+      internalID: -1384264935
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_40
+      name: general2_40
       rect:
         serializedVersion: 2
         x: 0
@@ -1208,16 +1208,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 4a34b25e3dba654e0800000000000000
-      internalID: -1993216858493598812
+      spriteID: 5128c820cd91aaa41bd82dcb2ed8d404
+      internalID: -334665702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_41
+      name: general2_41
       rect:
         serializedVersion: 2
         x: 128
@@ -1230,16 +1230,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 58194229def1cda60800000000000000
-      internalID: 7700064568116285829
+      spriteID: 8b231721d15a4ef46af3a731bb5df6a0
+      internalID: -559767232
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_42
+      name: general2_42
       rect:
         serializedVersion: 2
         x: 256
@@ -1252,16 +1252,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e1b55cded0a0ed8a0800000000000000
-      internalID: -6278569775567906018
+      spriteID: fc6180b555352c2498bc5fe970e8a2ea
+      internalID: -1330667156
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_43
+      name: general2_43
       rect:
         serializedVersion: 2
         x: 384
@@ -1274,16 +1274,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 07023518f8b700020800000000000000
-      internalID: 2305978865493942384
+      spriteID: 7e7ea053c33423448a76982a8f29e922
+      internalID: -1562760273
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_44
+      name: general2_44
       rect:
         serializedVersion: 2
         x: 512
@@ -1296,16 +1296,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7d25567a8a75a17d0800000000000000
-      internalID: -2946946624286010665
+      spriteID: 73c86e5411d1315489511064ad3f2c2e
+      internalID: -702150056
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_45
+      name: general2_45
       rect:
         serializedVersion: 2
         x: 640
@@ -1318,16 +1318,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f24dac75cbe2a7290800000000000000
-      internalID: -7891944010551733201
+      spriteID: 70a2aaf87892b54459bde0a743694581
+      internalID: 1479494225
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_46
+      name: general2_46
       rect:
         serializedVersion: 2
         x: 768
@@ -1340,16 +1340,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: ef28f5eb22bee21b0800000000000000
-      internalID: -5679343545612270850
+      spriteID: 45e0240f6a965164798c185329843cd2
+      internalID: 9817627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_47
+      name: general2_47
       rect:
         serializedVersion: 2
         x: 896
@@ -1362,16 +1362,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f3876c5545f1f88d0800000000000000
-      internalID: -2842018392770709441
+      spriteID: b5e3da9bb908e3c499a17c6e47144b0b
+      internalID: -147903555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_48
+      name: general2_48
       rect:
         serializedVersion: 2
         x: 0
@@ -1384,16 +1384,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 064ef6983c3b37100800000000000000
-      internalID: 104624868765459552
+      spriteID: bd9d80ff9d61db2488e85c972e1f1f1a
+      internalID: 1930720428
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_49
+      name: general2_49
       rect:
         serializedVersion: 2
         x: 128
@@ -1406,16 +1406,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9f670ba6bb527e870800000000000000
-      internalID: 8711973491050575609
+      spriteID: 6694149553ebef241b55794c97946664
+      internalID: 1323314415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_50
+      name: general2_50
       rect:
         serializedVersion: 2
         x: 256
@@ -1428,16 +1428,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 34b0ae046a49cf020800000000000000
-      internalID: 2376938145119341379
+      spriteID: d48768316d8301245a786e0ba51df9b6
+      internalID: 748756420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_51
+      name: general2_51
       rect:
         serializedVersion: 2
         x: 384
@@ -1450,16 +1450,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: a657648c1bf166ba0800000000000000
-      internalID: -6096150197169654422
+      spriteID: b4d94cef1738fc94caeeccc6481a0943
+      internalID: 672968582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_52
+      name: general2_52
       rect:
         serializedVersion: 2
         x: 512
@@ -1472,16 +1472,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e443dff931d0c3430800000000000000
-      internalID: 3763897766514603086
+      spriteID: 79d1aaf3ec58bb844896dea30ea29c64
+      internalID: -421610239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_53
+      name: general2_53
       rect:
         serializedVersion: 2
         x: 640
@@ -1494,16 +1494,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ea5fa6f0570a6740800000000000000
-      internalID: 5145933568541678304
+      spriteID: 7029f4be92be9234a9380f5db9399eb2
+      internalID: -717216757
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_54
+      name: general2_54
       rect:
         serializedVersion: 2
         x: 768
@@ -1516,16 +1516,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 300c5378bde249000800000000000000
-      internalID: 41709816954339331
+      spriteID: 152e0e8e48c2fd34294c982d09c1e633
+      internalID: -1034350725
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_55
+      name: general2_55
       rect:
         serializedVersion: 2
         x: 896
@@ -1538,16 +1538,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 5af5872269da927d0800000000000000
-      internalID: -2942630021174894683
+      spriteID: 574af3f708ddc3843a0a75788f132848
+      internalID: 1876574846
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_56
+      name: general2_56
       rect:
         serializedVersion: 2
         x: 0
@@ -1560,16 +1560,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 128e4cd5f1b343480800000000000000
-      internalID: -8920439956010899423
+      spriteID: 692d7ef598e0e4d4fbb2b7a8366563b6
+      internalID: -2124700313
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_57
+      name: general2_57
       rect:
         serializedVersion: 2
         x: 128
@@ -1582,16 +1582,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 817a4a8122ba1dbd0800000000000000
-      internalID: -2607114546340124904
+      spriteID: 686464418bc986d42af58a19558a7f62
+      internalID: 1575588601
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_58
+      name: general2_58
       rect:
         serializedVersion: 2
         x: 256
@@ -1604,16 +1604,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: e5c86322f9177bcb0800000000000000
-      internalID: -4848281545553310626
+      spriteID: e061258db3cd6d249948308ac8322b65
+      internalID: -1247654660
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_59
+      name: general2_59
       rect:
         serializedVersion: 2
         x: 384
@@ -1626,16 +1626,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 76f65c658c3610290800000000000000
-      internalID: -7925944157094973593
+      spriteID: 0f6223a4f6a2bf5418f1c8f7327b692b
+      internalID: 653045385
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_60
+      name: general2_60
       rect:
         serializedVersion: 2
         x: 512
@@ -1648,16 +1648,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: c8ea0e13469286520800000000000000
-      internalID: 2695449887291518604
+      spriteID: a620593f24d6fd1479c0852132138a99
+      internalID: 188307560
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_61
+      name: general2_61
       rect:
         serializedVersion: 2
         x: 640
@@ -1670,16 +1670,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 57bcd5e4f9d62c700800000000000000
-      internalID: 559129834729360245
+      spriteID: e77ac8237b7a86c499a2e06e772f678b
+      internalID: -1423515197
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_62
+      name: general2_62
       rect:
         serializedVersion: 2
         x: 768
@@ -1692,16 +1692,16 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d965aa667db61e4e0800000000000000
-      internalID: -1954162190417504611
+      spriteID: cf1fa4283f008b74ab819583180d0828
+      internalID: 1194904948
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: General2_processed_63
+      name: general2_63
       rect:
         serializedVersion: 2
         x: 896
@@ -1714,10 +1714,10 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: d4671a10854f8d430800000000000000
-      internalID: 3808062143763412557
+      spriteID: 5f2979c594f534b438782d7af2ff2bce
+      internalID: -1019788112
       vertices: []
       indices: 
       edges: []
@@ -1736,70 +1736,70 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      General2_processed_0: -1649422988791035472
-      General2_processed_1: -508492837508955035
-      General2_processed_10: 3518636212850364772
-      General2_processed_11: -2205386108437062849
-      General2_processed_12: 881014986312398798
-      General2_processed_13: -7499408429688523996
-      General2_processed_14: -4477679124137887468
-      General2_processed_15: -4248286390396736648
-      General2_processed_16: -3674700340354639604
-      General2_processed_17: -2251212013233250557
-      General2_processed_18: 5371747191637112238
-      General2_processed_19: 219323237540950169
-      General2_processed_2: 1212899432166828455
-      General2_processed_20: -729575381473020020
-      General2_processed_21: 4165763212127924334
-      General2_processed_22: 901220540662530252
-      General2_processed_23: 6946050225346216009
-      General2_processed_24: -6241828691193153821
-      General2_processed_25: 3433231281553602539
-      General2_processed_26: -1655195362694500226
-      General2_processed_27: 9044802518550137638
-      General2_processed_28: 3458968851881725642
-      General2_processed_29: -3918214710101293578
-      General2_processed_3: -6721551299022039845
-      General2_processed_30: 2287539402877470876
-      General2_processed_31: 2182665119237930936
-      General2_processed_32: -4767850241720412900
-      General2_processed_33: 6735736875467346273
-      General2_processed_34: -2067463726760923031
-      General2_processed_35: -2114001333255054425
-      General2_processed_36: -7427200893466599307
-      General2_processed_37: -5116347594036905496
-      General2_processed_38: 8602376596979227224
-      General2_processed_39: -1843237901614292679
-      General2_processed_4: 5296094377404026920
-      General2_processed_40: -1993216858493598812
-      General2_processed_41: 7700064568116285829
-      General2_processed_42: -6278569775567906018
-      General2_processed_43: 2305978865493942384
-      General2_processed_44: -2946946624286010665
-      General2_processed_45: -7891944010551733201
-      General2_processed_46: -5679343545612270850
-      General2_processed_47: -2842018392770709441
-      General2_processed_48: 104624868765459552
-      General2_processed_49: 8711973491050575609
-      General2_processed_5: 1739425133970770307
-      General2_processed_50: 2376938145119341379
-      General2_processed_51: -6096150197169654422
-      General2_processed_52: 3763897766514603086
-      General2_processed_53: 5145933568541678304
-      General2_processed_54: 41709816954339331
-      General2_processed_55: -2942630021174894683
-      General2_processed_56: -8920439956010899423
-      General2_processed_57: -2607114546340124904
-      General2_processed_58: -4848281545553310626
-      General2_processed_59: -7925944157094973593
-      General2_processed_6: -2456269686478865298
-      General2_processed_60: 2695449887291518604
-      General2_processed_61: 559129834729360245
-      General2_processed_62: -1954162190417504611
-      General2_processed_63: 3808062143763412557
-      General2_processed_7: -7955374328617872653
-      General2_processed_8: -864715529981146816
-      General2_processed_9: -3988141992952196739
+      general2_0: -1017794799
+      general2_1: -1183506096
+      general2_10: -870232425
+      general2_11: 1240759921
+      general2_12: 364845098
+      general2_13: 174696979
+      general2_14: 253664840
+      general2_15: 683410639
+      general2_16: 288148866
+      general2_17: -1466741252
+      general2_18: -1713079851
+      general2_19: -1213509679
+      general2_2: -1939377988
+      general2_20: -2040582360
+      general2_21: 973791223
+      general2_22: -1657538946
+      general2_23: 867983302
+      general2_24: -956111633
+      general2_25: -183628106
+      general2_26: -2017212467
+      general2_27: 1902903748
+      general2_28: 736350351
+      general2_29: -227338932
+      general2_3: -801203198
+      general2_30: -383799094
+      general2_31: -1164860023
+      general2_32: -397852615
+      general2_33: 1114487517
+      general2_34: 517656077
+      general2_35: 1745693127
+      general2_36: -3696584
+      general2_37: -1730741766
+      general2_38: 1965062668
+      general2_39: -1384264935
+      general2_4: 1040883013
+      general2_40: -334665702
+      general2_41: -559767232
+      general2_42: -1330667156
+      general2_43: -1562760273
+      general2_44: -702150056
+      general2_45: 1479494225
+      general2_46: 9817627
+      general2_47: -147903555
+      general2_48: 1930720428
+      general2_49: 1323314415
+      general2_5: 1624107419
+      general2_50: 748756420
+      general2_51: 672968582
+      general2_52: -421610239
+      general2_53: -717216757
+      general2_54: -1034350725
+      general2_55: 1876574846
+      general2_56: -2124700313
+      general2_57: 1575588601
+      general2_58: -1247654660
+      general2_59: 653045385
+      general2_6: -8251725
+      general2_60: 188307560
+      general2_61: -1423515197
+      general2_62: 1194904948
+      general2_63: -1019788112
+      general2_7: -1851851177
+      general2_8: -952790089
+      general2_9: 110763218
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

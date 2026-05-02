@@ -496,9 +496,10 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1783854904}
   - {fileID: 454735992}
   - {fileID: 768550619}
-  - {fileID: 1783854904}
+  - {fileID: 827982871}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &768550618
@@ -550,6 +551,8 @@ MonoBehaviour:
   idColumn: 0
   displayNameColumn: 1
   rarityColumn: 2
+  spritePageNameColumn: 3
+  spritePageIndexColumn: 4
   tagsColumnStart: 5
 --- !u!114 &768550621
 MonoBehaviour:
@@ -565,6 +568,73 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemInfos: []
   itemDataProcessor: {fileID: 768550620}
+--- !u!1 &827982870
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 827982871}
+  - component: {fileID: 827982873}
+  - component: {fileID: 827982872}
+  m_Layer: 0
+  m_Name: LootboxManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &827982871
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827982870}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 531779265}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &827982872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827982870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f35711c512b24fa47b1495fcd5427f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemMin: 1
+  itemMax: 3
+  epicChance: 0.05
+  rareChance: 0.15
+  uncommonChance: 0.3
+  commonChance: 0.5
+--- !u!114 &827982873
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 827982870}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ef1bc04dd019d0469dc18d756eb8463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lootboxGenerator: {fileID: 827982872}
+  debugLootbox:
+    displayName: 
+    items: []
 --- !u!1 &1783854903
 GameObject:
   m_ObjectHideFlags: 0

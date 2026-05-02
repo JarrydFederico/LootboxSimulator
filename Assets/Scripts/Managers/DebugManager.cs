@@ -19,6 +19,11 @@ public class DebugManager : Manager<DebugManager>
         {
             ItemDataManager.Instance.ProcessItemInfos();
         }
+
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            LootboxManager.Instance.GenerateLootbox();
+        }
     }
 
 }
