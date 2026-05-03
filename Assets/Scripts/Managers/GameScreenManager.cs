@@ -19,6 +19,7 @@ public class GameScreenManager : Manager<GameScreenManager>
     [SerializeField] private GameObject buttonOpen;
     [SerializeField] private Transform lootboxListItemHolder;
     [SerializeField] private LootboxListItem lootboxListItemPrefab;
+    [SerializeField] private OpenBoxDisplay openBoxDisplay;
 
     public IReadOnlyList<Lootbox> CurrentLootboxes =>
         LootboxManager.Instance.CurrentLootboxes;
@@ -31,6 +32,9 @@ public class GameScreenManager : Manager<GameScreenManager>
         if (!lootboxListItemHolder) Debug.LogError("LootboxListItemHolder is not assigned in ", this);
         if (!lootboxListItemPrefab) Debug.LogError("LootboxListItemPrefab is not assigned in ", this);
         if (!lootboxDetailDisplay) Debug.LogError("LootboxDetailDisplay is not assigned in ", this);
+        if (!openBoxDisplay) Debug.LogError("OpenBoxDisplay is not assigned in ", this);
+
+        openBoxDisplay.gameObject.SetActive(false);
 
         LoadLootboxListItems();
 
@@ -38,7 +42,7 @@ public class GameScreenManager : Manager<GameScreenManager>
  
         canvas.SetActive(true);
 
-        GameManager.CanInteract = true;
+        GameManager.SetCanInteract(true);
     }
 
     public void SelectLootbox(Lootbox lootbox)
@@ -86,6 +90,20 @@ public class GameScreenManager : Manager<GameScreenManager>
     public void PressedLootboxListItem(Lootbox lootbox, LootboxListItem pressedItem)
     {
         SelectLootbox(lootbox);
+    }
+
+    public void PressedOpenButton()
+    {
+        if (!GameManager.CanInteract) return;
+        if (currentLootbox == null) return;
+        GameManager.Instance.ProcessOpenLootbox(currentLootbox);
+        openBoxDisplay.ShowOpenLootbox(currentLootbox, OpenLootboxFinished);
+    }
+
+    public void OpenLootboxFinished()
+    {
+        openBoxDisplay.gameObject.SetActive(false);
+        GameManager.SetCanInteract(true);
     }
 
     #endregion

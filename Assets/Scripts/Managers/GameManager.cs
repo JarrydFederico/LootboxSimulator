@@ -16,7 +16,7 @@ public class GameManager : MonoBehaviour
 {
     private static HashSet<IManager> registeredManagers = new HashSet<IManager>();
 
-    public static bool CanInteract { get; set; } //Used to disable/enable interaction during things like menu animations, pauses
+    public static bool CanInteract { get; private set; } //Used to disable/enable interaction during things like menu animations, pauses
     public static GameManager Instance { get; private set; }
 
     private void Awake()
@@ -58,8 +58,17 @@ public class GameManager : MonoBehaviour
             manager.OnStartRound();
     }
 
-    public void OpenLootbox()
+    public void ProcessOpenLootbox(Lootbox lootbox)
     {
+        //Add each item that was in the lootbox to the player's inventory
+            //TO DO
+        //Register the lootbox as being opened
+            //TO DO
+        //Progress the timers forward for all lootboxes
+            //TO DO
+        //Tell the GameplayDisplayManager to show the open sequence
+
+
         foreach (var manager in registeredManagers)
             manager.OnLootboxOpened();
     }
@@ -73,6 +82,11 @@ public class GameManager : MonoBehaviour
     public static void UnregisterManager(IManager manager)
     {
         registeredManagers.Remove(manager);
+    }
+
+    public static void SetCanInteract(bool newState)
+    {
+        CanInteract = newState;
     }
 
     private void OnDestroy()

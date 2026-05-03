@@ -5,8 +5,8 @@ using System.Collections.Generic;
 /// Manages the creation of lootboxes in conjuction
 /// with the LootboxGenerator
 /// 
-/// At the start of the run, the player has lootboxes
-/// spawned. When they expire, they are re-generated here
+/// At the start of the run, the player is given lootboxes
+/// When they expire, they are re-generated here
 /// </summary>
 
 public class LootboxManager : Manager<LootboxManager>
