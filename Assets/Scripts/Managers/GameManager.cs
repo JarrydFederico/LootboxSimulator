@@ -58,19 +58,10 @@ public class GameManager : MonoBehaviour
             manager.OnStartRound();
     }
 
-    public void ProcessOpenLootbox(Lootbox lootbox)
+    public void LootBoxWasOpened(Lootbox lootbox)
     {
-        //Add each item that was in the lootbox to the player's inventory
-            //TO DO
-        //Register the lootbox as being opened
-            //TO DO
-        //Progress the timers forward for all lootboxes
-            //TO DO
-        //Tell the GameplayDisplayManager to show the open sequence
-
-
         foreach (var manager in registeredManagers)
-            manager.OnLootboxOpened();
+            manager.OnLootboxOpened(lootbox);
     }
 
     public static void RegisterManager(IManager manager)
@@ -103,7 +94,7 @@ public interface IManager
 {
     void OnStartRun();
     void OnStartRound();
-    void OnLootboxOpened();
+    void OnLootboxOpened(Lootbox lootbox);
     void Setup(); //Called in Awake of each individual Manager
     void OnEndRun(bool success);
 }

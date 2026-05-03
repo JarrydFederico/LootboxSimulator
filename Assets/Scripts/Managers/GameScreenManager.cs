@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections.Generic;
+using System.Linq;
 
 /// <summary>
 /// Handles all displays in the main game screen
@@ -57,7 +58,6 @@ public class GameScreenManager : Manager<GameScreenManager>
         {
             currentLootboxImage.sprite = lootbox.Sprite;
         }
-
     }
 
     #region LootboxList
@@ -96,15 +96,48 @@ public class GameScreenManager : Manager<GameScreenManager>
     {
         if (!GameManager.CanInteract) return;
         if (currentLootbox == null) return;
-        GameManager.Instance.ProcessOpenLootbox(currentLootbox);
+        LootboxManager.Instance.ProcessOpenLootbox(currentLootbox);
+        GameManager.Instance.LootBoxWasOpened(currentLootbox);
         openBoxDisplay.ShowOpenLootbox(currentLootbox, OpenLootboxFinished);
     }
 
     public void OpenLootboxFinished()
     {
+        List<LootboxListItem> lootboxListItemsToRemove =
+            currentLootboxListItems.Where(x => x.Lootbox.CheckIsExpired())
+            .ToList();
+
+        foreach(var lootboxListItem in lootboxListItemsToRemove)
+        {
+            if (currentLootbox == lootboxListItem.Lootbox)
+                SelectLootbox(null);
+            currentLootboxListItems.Remove(lootboxListItem);
+            Destroy(lootboxListItem.gameObject);
+        }
+
+        foreach(var lootbox in LootboxManager.Instance.CurrentLootboxes)
+        {
+            if (GetLootboxListItem(lootbox) == null)
+                SpawnLootboxListItem(lootbox);
+        }
+
+        LootboxStateChanged();
         openBoxDisplay.gameObject.SetActive(false);
         GameManager.SetCanInteract(true);
     }
 
     #endregion
+
+    public void LootboxStateChanged()
+    {
+        foreach (var lootboxListItem in currentLootboxListItems)
+            lootboxListItem.UpdateDisplay();
+        lootboxDetailDisplay.UpdateDisplay(currentLootbox);
+    }
+
+    public LootboxListItem GetLootboxListItem(Lootbox lootbox)
+    {
+        return currentLootboxListItems.FirstOrDefault
+            (x => x.Lootbox == lootbox);
+    }
 }

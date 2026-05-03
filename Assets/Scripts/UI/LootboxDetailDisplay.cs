@@ -23,8 +23,13 @@ public class LootboxDetailDisplay : MonoBehaviour
         }
 
         builder.Clear();
-        builder.AppendLine($"{lootbox.ItemAmount} ITEM");
+        builder.AppendLine($"{lootbox.DisplayName}");
         builder.AppendLine();
+        builder.AppendLine($"{lootbox.ItemCount} ITEM");
+        builder.AppendLine();
+        builder.AppendLine($"{lootbox.ExpiryCounter} UNTIL EXPIRY");
+        builder.AppendLine();
+        
         builder.AppendLine("Epic/Rare/Unc/Com");
         builder.AppendLine("5%/15%/30%/50%");
         builder.AppendLine();

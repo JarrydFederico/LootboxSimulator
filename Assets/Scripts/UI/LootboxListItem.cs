@@ -10,6 +10,7 @@ using TMPro;
 public class LootboxListItem : MonoBehaviour
 {
     [SerializeField] private Image lootboxImage;
+    [SerializeField] private TextMeshProUGUI stateTMP;
     public Lootbox Lootbox { get; private set; }
     private System.Action<Lootbox, LootboxListItem> onPressed;
 
@@ -17,8 +18,22 @@ public class LootboxListItem : MonoBehaviour
     {
         this.Lootbox = lootbox;
         this.onPressed = onPressed;
+        UpdateDisplay();
+        ShowStateText("NEW");
+    }
 
-        lootboxImage.sprite = lootbox.Sprite;
+    public void UpdateDisplay()
+    {
+        lootboxImage.sprite = Lootbox.Sprite;
+        if (Lootbox.ExpiryCounter <= 1)
+            ShowStateText("EXPIRING");
+        else
+            ShowStateText("");
+    }
+
+    private void ShowStateText(string newText)
+    {
+        stateTMP.text = newText;
     }
 
     public void Pressed()

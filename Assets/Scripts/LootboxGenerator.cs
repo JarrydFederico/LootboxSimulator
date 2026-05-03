@@ -31,21 +31,41 @@ public class LootboxGenerator : MonoBehaviour
         if (genericPool == null)
             GenerateGenericPool();
 
-        int numberOfItems = Random.Range(itemMin, itemMax + 1);
-
-        List<ItemInfo> itemList = new();
-
         if (ItemInfos == null || ItemInfos.Count == 0)
         {
             Debug.LogError("Cannot generate lootbox: no ItemInfos are available.");
             return new Lootbox { };
         }
 
+        int itemCount = Random.Range(itemMin, itemMax + 1);
+
         List<string> tags = GetRandomTags();
 
-        List<ItemInfo> itemPool = Random.value < limitedChance ? GetItemPoolFromTags(tags) : genericPool;
+        Sprite sprite = GetRandomSprite();
 
-        while(itemList.Count < numberOfItems)
+        //To do later
+        string displayName = "Lootbox_" + Random.Range(0, 100000);
+
+        int counter = Random.Range(4, 9);
+
+        Lootbox newLootbox = new Lootbox();
+
+        newLootbox.SetSprite(sprite);
+        newLootbox.SetDisplayName(displayName);
+        newLootbox.SetTags(tags);
+        newLootbox.SetExpiryCounter(counter);
+        newLootbox.SetItemCount(itemCount);
+
+        return newLootbox;
+    }
+
+    public void GenerateLootboxItems(Lootbox lootbox)
+    {
+        List<ItemInfo> itemPool = Random.value < limitedChance ? GetItemPoolFromTags(lootbox.Tags) : genericPool;
+
+        List<ItemInfo> itemList = new();
+
+        while (itemList.Count < lootbox.ItemCount)
         {
             if (itemPool.Count == 0)
                 break;
@@ -58,16 +78,7 @@ public class LootboxGenerator : MonoBehaviour
                 itemList.Add(chosenItem);
         }
 
-        Sprite sprite = GetRandomSprite();
-
-        Lootbox newLootbox = new Lootbox();
-
-        newLootbox.SetSprite(sprite);
-        newLootbox.SetDisplayName(""); //To do later
-        newLootbox.SetItems(itemList);
-        newLootbox.SetTags(tags);
-
-        return newLootbox;
+        lootbox.SetItems(itemList);
     }
 
     private List<string> GetRandomTags()
@@ -145,7 +156,7 @@ public class LootboxGenerator : MonoBehaviour
         genericPool = ItemInfos.Where(x => !x.limited).ToList();
     }
 
-    private List<ItemInfo> GetItemPoolFromTags(List<string> tags)
+    private List<ItemInfo> GetItemPoolFromTags(IReadOnlyList<string> tags)
     {
         HashSet<string> tagSet = new(tags);
 

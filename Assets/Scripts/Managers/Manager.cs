@@ -32,7 +32,7 @@ public abstract class Manager<T> : MonoBehaviour, IManager where T : MonoBehavio
 
     public virtual void OnStartRun() { }
     public virtual void OnStartRound() { }
-    public virtual void OnLootboxOpened() { }
+    public virtual void OnLootboxOpened(Lootbox lootbox) { }
     public virtual void OnEndRun(bool success) { }
     public virtual void Setup() { }
 

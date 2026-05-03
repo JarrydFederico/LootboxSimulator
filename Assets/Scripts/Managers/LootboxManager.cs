@@ -35,6 +35,11 @@ public class LootboxManager : Manager<LootboxManager>
         }
     }
 
+    public void ProcessOpenLootbox(Lootbox lootbox)
+    {
+        lootboxGenerator.GenerateLootboxItems(lootbox);
+    }
+
     public void AddLootbox(Lootbox lootbox)
     {
         ProgressManager.Instance.LootboxProgress.AddLootbox(lootbox);
@@ -57,14 +62,17 @@ public class Lootbox
 {
     public string DisplayName { get; private set; }
     public Sprite Sprite { get; private set; }
-
     private readonly List<ItemInfo> items = new();
-    public IReadOnlyList<ItemInfo> Items => items;
-
     private readonly List<string> tags = new();
+    public IReadOnlyList<ItemInfo> Items => items;
     public IReadOnlyList<string> Tags => tags;
+    public int ExpiryCounter { get; private set; }
+    public int ItemCount { get; private set; }
 
-    public int ItemAmount => items.Count;
+    public void SetItemCount(int itemCount)
+    {
+        this.ItemCount = itemCount;
+    }
 
     public void SetItems(List<ItemInfo> newItems)
     {
@@ -94,13 +102,19 @@ public class Lootbox
         tags.AddRange(newTags);
     }
 
-    public void SetSprite(Sprite sprite)
-    {
+    public void SetSprite(Sprite sprite) =>
         this.Sprite = sprite;
-    }
 
-    public void SetDisplayName(string displayName)
-    {
+    public void SetDisplayName(string displayName) =>
         this.DisplayName = displayName;
+
+    public void SetExpiryCounter(int counter) =>
+        this.ExpiryCounter = counter;
+    public void ReduceCounter()
+    {
+        if (ExpiryCounter > 0)
+            ExpiryCounter--;
     }
+    public bool CheckIsExpired() =>
+        ExpiryCounter <= 0;
 }

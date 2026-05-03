@@ -37,7 +37,6 @@ public class OpenBoxDisplay : MonoBehaviour
             return;
         }
 
-
         itemsToOpen.Clear();
         itemsToOpen.AddRange(lootbox.Items);
 
@@ -70,7 +69,7 @@ public class OpenBoxDisplay : MonoBehaviour
         itemImage.sprite = currentItem.sprite;
         rarityTMP.text = currentItem.rarity.ToString();
 
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.1f);
 
         GameManager.SetCanInteract(true);
         currentCoroutine = null;
