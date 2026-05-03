@@ -38,7 +38,7 @@ public class LootboxGenerator : MonoBehaviour
         if (ItemInfos == null || ItemInfos.Count == 0)
         {
             Debug.LogError("Cannot generate lootbox: no ItemInfos are available.");
-            return new Lootbox { items = itemList };
+            return new Lootbox { };
         }
 
         List<string> tags = GetRandomTags();
@@ -58,11 +58,16 @@ public class LootboxGenerator : MonoBehaviour
                 itemList.Add(chosenItem);
         }
 
-        return new Lootbox()
-        {
-            items = itemList,
-            tags = tags
-        };
+        Sprite sprite = GetRandomSprite();
+
+        Lootbox newLootbox = new Lootbox();
+
+        newLootbox.SetSprite(sprite);
+        newLootbox.SetDisplayName(""); //To do later
+        newLootbox.SetItems(itemList);
+        newLootbox.SetTags(tags);
+
+        return newLootbox;
     }
 
     private List<string> GetRandomTags()
@@ -160,5 +165,21 @@ public class LootboxGenerator : MonoBehaviour
         return false;
     }
 
+    private Sprite GetRandomSprite()
+    {
+        Sprite[] spriteList = LootboxManager.Instance.lootboxSprites;
+        return spriteList[Random.Range(0, spriteList.Length)];
+    }
+
+    private void OnValidate()
+    {
+        itemMin = Mathf.Max(1, itemMin);
+        itemMax = Mathf.Max(itemMin, itemMax);
+
+        tagMin = Mathf.Max(0, tagMin);
+        tagMax = Mathf.Max(tagMin, tagMax);
+
+        limitedChance = Mathf.Clamp01(limitedChance);
+    }
 
 }

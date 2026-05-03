@@ -14,10 +14,9 @@ using System.Collections.Generic;
 
 public class GameManager : MonoBehaviour
 {
-
     private static HashSet<IManager> registeredManagers = new HashSet<IManager>();
 
-    public static bool CanInteract { get; private set; } //Used to disable/enable interaction during things like menu animations, pauses
+    public static bool CanInteract { get; set; } //Used to disable/enable interaction during things like menu animations, pauses
     public static GameManager Instance { get; private set; }
 
     private void Awake()
@@ -35,13 +34,15 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-
+        StartRun();
     }
 
-    public void StartRun()
+    private void StartRun()
     {
         foreach (var manager in registeredManagers)
             manager.OnStartRun();
+
+        GameScreenManager.Instance.ShowGameScreen();
     }
 
     public void StartNewRound()
