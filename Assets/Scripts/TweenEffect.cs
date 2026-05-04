@@ -14,6 +14,7 @@ public class TweenEffect : MonoBehaviour
     private System.Action onCompleteCallback;
 
     private EffectManager effectManager => EffectManager.Instance;
+    private TweenCurves tweenCurves => effectManager.TweenCurves;
 
     public void PlayTween(TweenType tweenToPlay, float delay = 0, bool _destroyAtEnd = false, System.Action onComplete = null)
     {
@@ -100,34 +101,34 @@ public class TweenEffect : MonoBehaviour
     }
 
     public void ItemEntry(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.itemEntryCurve, effectManager.itemEntryDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.itemEntryCurve, tweenCurves.itemEntryDuration, onComplete);
 
     public void ItemClose(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.itemCloseCurve, effectManager.itemCloseDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.itemCloseCurve, tweenCurves.itemCloseDuration, onComplete);
 
     public void Pulse(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseCurve, effectManager.pulseDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseCurve, tweenCurves.pulseDuration, onComplete);
 
     public void PulseSlow(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseSlowCurve, effectManager.pulseSlowDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseSlowCurve, tweenCurves.pulseSlowDuration, onComplete);
 
     public void PulseLarge(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseLargeCurve, effectManager.pulseDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseLargeCurve, tweenCurves.pulseDuration, onComplete);
 
     public void PulseStart(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseStartCurve, effectManager.pulseStartDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseStartCurve, tweenCurves.pulseStartDuration, onComplete);
 
     public void PulseEnd(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseEndCurve, effectManager.pulseEndDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseEndCurve, tweenCurves.pulseEndDuration, onComplete);
 
     public void PulseDouble(TweenCallback onComplete = null)
-        => PlayScaleCurve(effectManager.pulseDoubleCurve, effectManager.pulseDoubleDuration, onComplete);
+        => PlayScaleCurve(tweenCurves.pulseDoubleCurve, tweenCurves.pulseDoubleDuration, onComplete);
 
     public void FadeIn(TweenCallback onComplete = null)
-        => PlayAlphaCurve(effectManager.fadeInCurve, effectManager.fadeInDuration, 0f, 1f, onComplete);
+        => PlayAlphaCurve(tweenCurves.fadeInCurve, tweenCurves.fadeInDuration, 0f, 1f, onComplete);
 
     public void FadeOut(TweenCallback onComplete = null)
-        => PlayAlphaCurve(effectManager.fadeOutCurve, effectManager.fadeOutDuration, 1f, 0f, onComplete);
+        => PlayAlphaCurve(tweenCurves.fadeOutCurve, tweenCurves.fadeOutDuration, 1f, 0f, onComplete);
 
     Tween PlayScaleCurve(AnimationCurve curve, float duration, TweenCallback onComplete = null)
     {

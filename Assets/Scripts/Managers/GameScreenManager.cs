@@ -11,33 +11,30 @@ using System.Linq;
 
 public class GameScreenManager : Manager<GameScreenManager>
 {
-    [SerializeField] private Lootbox currentLootbox;
+    public Lootbox currentLootbox { get; private set; }
 
     [Header("To Set")]
     [SerializeField] private GameObject canvas;
     [SerializeField] private Image currentLootboxImage;
     [SerializeField] private LootboxDetailDisplay lootboxDetailDisplay;
     [SerializeField] private GameObject buttonOpen;
-    [SerializeField] private Transform lootboxListItemHolder;
-    [SerializeField] private LootboxListItem lootboxListItemPrefab;
     [SerializeField] private OpenBoxDisplay openBoxDisplay;
+    [SerializeField] private LootboxListSection lootboxListSection;
 
     public IReadOnlyList<Lootbox> CurrentLootboxes =>
         LootboxManager.Instance.CurrentLootboxes;
 
-    private List<LootboxListItem> currentLootboxListItems = new();
 
     public void ShowGameScreen()
     {
         if (!canvas) Debug.LogError("Canvas is not assigned in ", this);
-        if (!lootboxListItemHolder) Debug.LogError("LootboxListItemHolder is not assigned in ", this);
-        if (!lootboxListItemPrefab) Debug.LogError("LootboxListItemPrefab is not assigned in ", this);
         if (!lootboxDetailDisplay) Debug.LogError("LootboxDetailDisplay is not assigned in ", this);
         if (!openBoxDisplay) Debug.LogError("OpenBoxDisplay is not assigned in ", this);
+        if (!lootboxListSection) Debug.LogError("LootboxListSection is not assigned in ", this);
 
         openBoxDisplay.gameObject.SetActive(false);
 
-        LoadLootboxListItems();
+        lootboxListSection.Show();
 
         SelectLootbox(CurrentLootboxes.Count > 0 ? CurrentLootboxes[0] : null);
  
@@ -51,40 +48,16 @@ public class GameScreenManager : Manager<GameScreenManager>
         currentLootbox = lootbox;
         bool isLootBox = lootbox != null;
 
-        lootboxDetailDisplay.UpdateDisplay(currentLootbox);
         currentLootboxImage.gameObject.SetActive(isLootBox);
 
         if (isLootBox)
         {
             currentLootboxImage.sprite = lootbox.Sprite;
         }
+
+        LootboxStateChanged();
     }
 
-    #region LootboxList
-    private void LoadLootboxListItems()
-    {
-        ClearLootboxListItems();
-
-        foreach(var lb in CurrentLootboxes)
-        {
-            SpawnLootboxListItem(lb);
-        }
-    }
-
-    private void SpawnLootboxListItem(Lootbox lootbox)
-    {
-        var newLootboxListItem = Instantiate(lootboxListItemPrefab, lootboxListItemHolder);
-        newLootboxListItem.Show(lootbox, PressedLootboxListItem);
-        currentLootboxListItems.Add(newLootboxListItem);
-    }
-
-    private void ClearLootboxListItems()
-    {
-        foreach (Transform t in lootboxListItemHolder)
-            Destroy(t.gameObject);
-        currentLootboxListItems = new();
-    }
-    #endregion
 
     #region Interaction
     public void PressedLootboxListItem(Lootbox lootbox, LootboxListItem pressedItem)
@@ -103,24 +76,7 @@ public class GameScreenManager : Manager<GameScreenManager>
 
     public void OpenLootboxFinished()
     {
-        List<LootboxListItem> lootboxListItemsToRemove =
-            currentLootboxListItems.Where(x => x.Lootbox.CheckIsExpired())
-            .ToList();
-
-        foreach(var lootboxListItem in lootboxListItemsToRemove)
-        {
-            if (currentLootbox == lootboxListItem.Lootbox)
-                SelectLootbox(null);
-            currentLootboxListItems.Remove(lootboxListItem);
-            Destroy(lootboxListItem.gameObject);
-        }
-
-        foreach(var lootbox in LootboxManager.Instance.CurrentLootboxes)
-        {
-            if (GetLootboxListItem(lootbox) == null)
-                SpawnLootboxListItem(lootbox);
-        }
-
+        lootboxListSection.OpenLootboxFinished();
         LootboxStateChanged();
         openBoxDisplay.gameObject.SetActive(false);
         GameManager.SetCanInteract(true);
@@ -130,14 +86,9 @@ public class GameScreenManager : Manager<GameScreenManager>
 
     public void LootboxStateChanged()
     {
-        foreach (var lootboxListItem in currentLootboxListItems)
-            lootboxListItem.UpdateDisplay();
+        lootboxListSection.UpdateDisplay();
         lootboxDetailDisplay.UpdateDisplay(currentLootbox);
     }
 
-    public LootboxListItem GetLootboxListItem(Lootbox lootbox)
-    {
-        return currentLootboxListItems.FirstOrDefault
-            (x => x.Lootbox == lootbox);
-    }
+
 }

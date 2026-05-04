@@ -46,7 +46,7 @@ public class LootboxGenerator : MonoBehaviour
         //To do later
         string displayName = "Lootbox_" + Random.Range(0, 100000);
 
-        int counter = Random.Range(4, 9);
+        int counter = Random.Range(1, 4);
 
         Lootbox newLootbox = new Lootbox();
 
